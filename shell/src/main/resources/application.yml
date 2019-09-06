@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://120.79.252.252:3306/db_diary
+    data-username: root
+    data-password: 1234
+beetlsql:
+  sqlPath: mapper/                          #markdown文件所在位置
+  basePackage: com.yyh.diary.dao            #单数据源包扫描位置
+

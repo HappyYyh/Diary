@@ -1,0 +1,19 @@
+package ${package};
+import org.beetl.sql.core.engine.PageQuery;
+import org.beetl.sql.core.mapper.BaseMapper;
+import java.util.List;
+${imports}
+/**
+ * All rights Reserved, Designed By yyh
+ *
+ * @author: yyh
+ * @date:${date(),"yyyy-MM-dd"}
+ * @since V1.0.0-SNAPSHOT
+ */
+public interface ${className} extends BaseMapper<${entityClass}> {
+
+    /**
+     * 简单查询
+     */
+    List<${entityClass}> sample(${entityClass} obj);
+}

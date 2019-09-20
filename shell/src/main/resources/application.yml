@@ -7,4 +7,5 @@ spring:
 beetlsql:
   sqlPath: mapper/                          #markdown文件所在位置
   basePackage: com.yyh.diary.dao            #单数据源包扫描位置
-
+server:
+  port: 8083

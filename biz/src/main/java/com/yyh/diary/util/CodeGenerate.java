@@ -82,6 +82,6 @@ public class CodeGenerate {
 
 
     public static void main(String[] args) {
-        genTemplateCode("mapper","com.yyh.diary.entity","com.yyh.diary.dao","tbl","tbl_user");
+        genTemplateCode("mapper","com.yyh.diary.entity","com.yyh.diary.dao","tbl","tbl_history");
     }
 }

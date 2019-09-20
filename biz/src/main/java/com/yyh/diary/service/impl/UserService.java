@@ -23,6 +23,7 @@ public class UserService extends BaseService {
     private UserDao userDao;
 
     public List<User> getAll(){
-        return userDao.sample(null);
+        //return userDao.sample(null);
+        return sqlManager.all(User.class);
     }
 }
